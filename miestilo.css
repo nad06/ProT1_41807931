@@ -1,0 +1,95 @@
+body {
+    background-color: #fce4ec;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo1 {
+    color: #c409b4;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*3. comentar el estilo anterior en el archivo CSS e insertar este nuevo estilo:*/
+/*.contenedor1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    
+}*/
+
+
+header {
+    background-color: #d3a1cb;
+    color: #c409b4;
+    text-align: center;
+    padding: auto;
+}
+
+header .logo img {
+    max-width: 100px; /* Ajusta el tamaño del logotipo */
+  
+}
+
+nav {
+    background-color: #42c8da;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+    
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+    
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+    
+nav ul li a:hover {
+    background-color: #32a6b6;
+}
+
+section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */
+}
+
+section h2{
+    text-align: center;
+    color: #c16ccc;
+}
+
+footer {
+    background-color: #42c8da; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; 
+}
+
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+
+
+
+img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #c16ccc; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+    
